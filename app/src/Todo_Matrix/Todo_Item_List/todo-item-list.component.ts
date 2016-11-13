@@ -4,7 +4,7 @@ import {TodoItemComponent} from '../Todo_Item/todo-item.component';
 @Component({
     selector: 'todo-item-list',
     directives: [TodoItemComponent],
-    templateUrl: './app/src/Todo_Item_List/todo-item-list.component.html',
+    templateUrl: './app/src/Todo_Matrix/Todo_Item_List/todo-item-list.component.html',
     //styleUrls: ['./app/src/Todo_Item_List/todo-item-list.component.css']
 })
 export class TodoItemListComponent {

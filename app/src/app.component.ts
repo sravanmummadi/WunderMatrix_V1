@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import {TodoItemListComponent} from './Todo_Item_List/todo-item-list.component';
+import {TodoItemListComponent} from './Todo_Matrix/Todo_Item_List/todo-item-list.component';
 
 @Component({
     selector: 'Wunder-Matrix-app',
