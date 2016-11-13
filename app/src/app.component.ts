@@ -5,7 +5,7 @@ import {TodoItemListComponent} from './Todo_Item_List/todo-item-list.component';
     selector: 'Wunder-Matrix-app',
     directives: [TodoItemListComponent],
     templateUrl: './app/src/app.component.html',
-    //styleUrls: ['./app/src/app.component.css']
+    styleUrls: ['./app/src/app.component.css']
 })
 export class AppComponent {
 
