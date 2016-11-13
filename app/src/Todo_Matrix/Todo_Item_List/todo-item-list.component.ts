@@ -9,8 +9,7 @@ import {TodoItemComponent} from '../Todo_Item/todo-item.component';
 })
 export class TodoItemListComponent {
 
-    onMediaItemDeleted(mediaItem) {
-    }
+    
     
     todoItems = [
         {

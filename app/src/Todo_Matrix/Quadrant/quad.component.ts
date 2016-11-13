@@ -9,6 +9,5 @@ import {TodoItemListComponent} from '../Todo_Item_List/todo-item-list.component'
 })
 export class TodoQuadrant {
 
-    onMediaItemDeleted(mediaItem) {
-    }
+    
 }

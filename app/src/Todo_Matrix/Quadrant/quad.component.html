@@ -1,11 +1,11 @@
 <section class="quadrant">
   <header class="header">
     <h1>Quadrant1</h1>
-    <input class="new-todo" placeholder="What needs to be done?" autofocus
-        [(ngModel)]="newItem" (keyup.enter)="addItem()">
-    <button class="add" (click)="addItem()">Add</button>
+    
   </header>
   <section class="main">
+    <todo-item-list></todo-item-list>
+    <!--
     <ul class="todo-list">
       <todo-item *ngFor="#item of store.items"
         [item]="item"
@@ -13,5 +13,6 @@
         (itemUpdated)="itemUpdated($event)">
       </todo-item>
     </ul>
+    -->
   </section>
 </section>

@@ -1,4 +1,10 @@
 
+#div1 { background: rgba(255,0,0,1); }
+#div2 { background: rgba(0,255,0,1); }
+#div3 { background: rgba(0,0,255,0.5); }
+#div4 { background: rgba(0,0,255,0); }
+div { width: 50%; height: 50%; float: left; }
+
 button {
   margin: 0;
   padding: 0;

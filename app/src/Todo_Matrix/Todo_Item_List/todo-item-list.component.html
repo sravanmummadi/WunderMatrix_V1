@@ -1,5 +1,8 @@
-<html>
-<h1> This is to do item list component </h1>
-<todo-item></todo-item>
-</html>
-
+<section>
+    <todo-item></todo-item>
+    
+    <todo-item *ngFor="#todoItem of todoItems"
+        [todoToFinish]="todoItem"
+        ></todo-item>
+       
+</section>
