@@ -6,46 +6,26 @@ export class TodoItemService {
 
     todoItems = [
         {
-            id: 1,
-            name: "Firebug",
-            medium: "Series",
-            category: "Science Fiction",
-            year: 2010,
-            watchedOn: 1294166565384,
-            isFavorite: false
+            name: "defect",
+            ETA: "20 mins",
+            category: "Work",
+            isComplete:'0',
+            Quadrant:'IMP_NURG'
+        
         },
         {
-            id: 2,
-            name: "The Small Tall",
-            medium: "Movies",
-            category: "Comedy",
-            year: 2015,
-            watchedOn: null,
-            isFavorite: true
+            
+            name: "Bath",
+            ETA: "20 mins",
+            category: "Personal,Hygience",
+            isComplete:'0',
+            Quadrant:'IMP_URG'
+
         }, {
-            id: 3,
-            name: "The Redemption",
-            medium: "Movies",
-            category: "Action",
-            year: 2016,
-            watchedOn: null,
-            isFavorite: false
-        }, {
-            id: 4,
-            name: "Hoopers",
-            medium: "Series",
-            category: "Drama",
-            year: null,
-            watchedOn: null,
-            isFavorite: true
-        }, {
-            id: 5,
-            name: "Happy Joe: Cheery Road",
-            medium: "Movies",
-            category: "Action",
-            year: 2015,
-            watchedOn: 1457166565384,
-            isFavorite: false
+            name: "TodoProject",
+            ETA: "1 week",
+            category: "Personal, Career",
+            Quadrant:'IMP_NURG'
         }
     ];
 }
