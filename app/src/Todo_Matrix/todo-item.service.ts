@@ -3,6 +3,10 @@ export class TodoItemService {
     get() {
         return this.todoItems;
     }
+    add(todoItem)
+    {
+        this.todoItems.push(todoItem);
+    }
 
     todoItems = [
         {

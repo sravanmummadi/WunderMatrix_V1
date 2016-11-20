@@ -1,24 +1,13 @@
-<section class="todoapp">
-  <!--
-  
-  <section class="main">
-    <ul class="todo-list">
-      <todo-item *ngFor="#item of store.items"
-        [item]="item"
-        (done)="removeItem($event)"
-        (itemUpdated)="itemUpdated($event)">
-      </todo-item>
-    </ul>
-  </section>
-  -->
 
-  <header class="header">
-    <h1>todos</h1>
-    <input class="new-todo" placeholder="What needs to be done?" autofocus
-        [(ngModel)]="newItem" (keyup.enter)="addItem()">
-    <button class="add" (click)="addItem()">Add</button>
-  </header>
-  <h2>app component</h2>
+
+<section>
+    <header align="center">
+        <h1 algin="center">Todo Quadrant List</h1>
+        <p class="description">Keeping track of the Todo I want to complete.</p>
+        <todo-input></todo-input>
+    </header>
+    
+    
   <div id="div1">
     <todo-quadrant></todo-quadrant>
 </div>

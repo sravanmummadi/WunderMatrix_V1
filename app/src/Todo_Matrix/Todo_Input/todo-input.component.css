@@ -1,0 +1,43 @@
+
+
+
+ input::-moz-placeholder {
+  font-style: italic;
+  font-weight: 300;
+  color: white;
+}
+
+ input::input-placeholder {
+  font-style: italic;
+  font-weight: 400;
+  color: white;
+}
+
+.new-todo {
+  position: relative;
+  margin: 0;
+  width: 90%;
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: 1.4em;
+  border: 0;
+  outline: none;
+  color: white;
+  padding: 6px;
+  border: 1px solid #999;
+  box-shadow: inset 0 -1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.new-todo {
+  padding: 16px 16px 16px 60px;
+  
+  background: rgba(255, 0, 0, 0.03);
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+  padding-bottom: 10px
+}
+
