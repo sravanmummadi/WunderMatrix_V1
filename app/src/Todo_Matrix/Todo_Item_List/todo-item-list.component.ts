@@ -6,17 +6,19 @@ import {TodoItemService} from '../todo-item.service';
 @Component({
     selector: 'todo-item-list',
     directives: [TodoItemComponent],
-    providers: [TodoItemService],
+    //providers: [TodoItemService],
     templateUrl: './app/src/Todo_Matrix/Todo_Item_List/todo-item-list.component.html',
     //styleUrls: ['./app/src/Todo_Item_List/todo-item-list.component.css']
 })
 export class TodoItemListComponent {
 
-    constructor(private todoItemService: TodoItemService) {};
+    constructor(private todoItemService1: TodoItemService) {};
     ngOnInit() {
-        this.todoItems = this.todoItemService.get();
+        this.todoItems1 = this.todoItemService1.get();
+        //console.log(this.todoItemService1.get());
+        //console.log(this.todoItems);
     };
     
-    todoItems;
+    todoItems1;
     
 }

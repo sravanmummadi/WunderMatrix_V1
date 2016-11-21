@@ -5,9 +5,8 @@ import {TodoItemService} from '../todo-item.service';
 @Component({
     selector: 'todo-input',
     templateUrl: './app/src/Todo_Matrix/Todo_Input/todo-input.component.html',
-    styleUrls: ['./app/src/Todo_Matrix/Todo_Input/todo-input.component.css'],
-    providers:[TodoItemService],
-})
+    styleUrls: ['./app/src/Todo_Matrix/Todo_Input/todo-input.component.css']
+    })
 /*
 export class TodoItemInput {
     form;
@@ -15,7 +14,7 @@ export class TodoItemInput {
 }
 */
 
-export class TodoItemInput {
+export class TodoItemFormComponent {
     form;
     
     constructor(private formBuilder: FormBuilder,
@@ -23,10 +22,11 @@ export class TodoItemInput {
         ) {}
     ngOnInit() {
         this.form = this.formBuilder.group({
-            'newitem': new Control('')
+            'name': new Control('')
         });
     }
     onSubmit(todoItem) {
+        
         this.todoItemService.add(todoItem);
         console.log("sucessfully added model drivern forms")
     }

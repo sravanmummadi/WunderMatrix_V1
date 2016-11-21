@@ -5,7 +5,9 @@ export class TodoItemService {
     }
     add(todoItem)
     {
+        //console.log(this.todoItems);
         this.todoItems.push(todoItem);
+        //console.log(this.todoItems);
     }
 
     todoItems = [

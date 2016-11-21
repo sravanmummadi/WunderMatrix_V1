@@ -1,7 +1,10 @@
 <section>
    <form [ngFormModel]="form" (ngSubmit)="onSubmit(form.value)">
     <input class="new-todo" placeholder="What needs to be done?" autofocus
-        ngControl="newitem">
+        ngControl="newitem" ngControl="name">
     <button type="submit" class="add">Add</button>
    </form>
+    <todo-item *ngFor="#todoItem of todoItems" [todoToFinish]="todoItem" > </todo-item>
+
 </section>
+
