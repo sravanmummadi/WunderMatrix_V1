@@ -14,5 +14,12 @@ import {TodoItemListComponent} from './Todo_Matrix/Todo_Item_List/todo-item-list
     
 })
 export class AppComponent {
-
+constructor(private todoItemService1: TodoItemService) {};
+    ngOnInit() {
+        this.quadrants = this.todoItemService1.getQuad();
+        //console.log(this.todoItemService1.get());
+        //console.log(this.todoItems);
+    };
+    
+    quadrants;
 }

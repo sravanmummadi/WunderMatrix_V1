@@ -22,7 +22,8 @@ export class TodoItemFormComponent {
         ) {}
     ngOnInit() {
         this.form = this.formBuilder.group({
-            'name': new Control('')
+            'name': new Control(''),
+            'category':new Control('URG_IMP')
         });
     }
     onSubmit(todoItem) {

@@ -1,30 +1,23 @@
-
-
 <section>
     <header align="center">
-        <h1 algin="center">Todo Quadrant List</h1>
+        <h1 algin="center">Wunder Matrix</h1>
         <p class="description">Keeping track of the Todo I want to complete.</p>
         <todo-input></todo-input>
-        
+
     </header>
-    
-   
-      
-      
-      
-  <div id="div1">
-    
-    <todo-quadrant></todo-quadrant>
-</div>
-<div id="div2">
-  <todo-quadrant></todo-quadrant>
-</div>
-<div id="div3">
-  <todo-quadrant></todo-quadrant>
-</div>
-<div id="div4">
-  <todo-quadrant></todo-quadrant>
-</div>
-  
- 
+
+
+
+
+
+    <div>
+        <todo-quadrant *ngFor="#quad of quadrants" [quadrant1]="quad"></todo-quadrant>
+
+
+
+    </div>
+
+
+
+
 </section>

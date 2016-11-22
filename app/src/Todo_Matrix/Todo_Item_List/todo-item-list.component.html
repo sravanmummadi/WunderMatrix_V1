@@ -1,4 +1,9 @@
 <section>
-    <todo-item *ngFor="#todoItem of todoItems1" [todoToFinish]="todoItem"></todo-item>
-
+    
+    
+    <div *ngFor="#todoItem of todoItems1">
+        <div *ngIf="todoItem.category=='URG_IMP'">
+            <todo-item [todoToFinish]="todoItem"></todo-item>
+        </div>
+    </div>
 </section>

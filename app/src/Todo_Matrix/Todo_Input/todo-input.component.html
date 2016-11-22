@@ -1,10 +1,18 @@
 <section>
    <form [ngFormModel]="form" (ngSubmit)="onSubmit(form.value)">
+       <select name="category" id="category"
+                ngControl="category">
+                <option value="URG_IMP">URGENT AND IMPORTANT</option>
+                <option value="NURG_IMP">NOT URGENT BUT IMPORTANT</option>
+                <option value="URG_NIMP">URGENT BUT NOT IMPORTANT</option>
+                <option value="NURG_NIMP">NOT URGENT AND NOT IMPORTANT</option>
+                
+            </select>
     <input class="new-todo" placeholder="What needs to be done?" autofocus
         ngControl="newitem" ngControl="name">
     <button type="submit" class="add">Add</button>
    </form>
-    <todo-item *ngFor="#todoItem of todoItems" [todoToFinish]="todoItem" > </todo-item>
+    <!--<todo-item *ngFor="#todoItem of todoItems" [todoToFinish]="todoItem" > </todo-item>-->
 
 </section>
 

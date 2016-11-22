@@ -6,6 +6,6 @@ import {Component, Input, Output, EventEmitter} from 'angular2/core';
     styleUrls: ['./app/src/Todo_Matrix/Todo_Item/todo-item.component.css']
 })
 export class TodoItemComponent {
-    @Input('todoToFinish') todoItem;
+    @Input('todoToFinish') todoItem1;
     
 }

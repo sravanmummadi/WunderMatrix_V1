@@ -20,12 +20,11 @@ section > header > h1 {
 section > header .description {
     font-style: italic;
 }
-div{
-  
-}
 
+/*
 #div1 { background: white; border:2px solid red;}
 #div2 { background: white;border:2px solid red;}
 #div3 { background: white;border:1px solid red; }
 #div4 { background: white; border:1px solid red;}
-div { width: 40%; height: 40%; float: left; }
+*/
+todo-quadrant { padding: 10px; width: 40%; height: 40%; float: left;background: white; }
