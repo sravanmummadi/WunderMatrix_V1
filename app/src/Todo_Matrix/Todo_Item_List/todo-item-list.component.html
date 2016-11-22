@@ -1,9 +1,10 @@
 <section>
    <!-- <h1>{{todoItems1 | categoryList}}</h1> -->
-    
-    <div *ngFor="#todoItem of todoItems1 | categoryList:'URG_IMP'">
-        <div *ngIf="todoItem.category=='URG_IMP'">
+   
+   
+    <div *ngFor="#todoItem of todoItems1 | categoryList:category">
+        
             <todo-item [todoToFinish]="todoItem"></todo-item>
-        </div>
+        
     </div>
 </section>

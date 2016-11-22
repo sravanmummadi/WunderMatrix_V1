@@ -17,23 +17,23 @@ export class TodoItemService {
         {
             name: "IMP AND URG",
             desc: "important and urgent",
-            category:'IMP_URG'
+            category:'URG_IMP'
             },
         {
             
             name: "IMP BUT NOT URG",
             desc: "important but not urgent",
-            category:'IMP_NURG'
+            category:'NURG_IMP'
 
         }, {
             name: "NOT IMP BUT URG",
             desc: "Not important but urgent",
-            category:'NIMP_URG'
+            category:'URG_NIMP'
         },
         {
             name: "NOT IMP NOT URG",
             desc: "not important and not urgent",
-            category:'NIMP_NURG'
+            category:'NURG_NIMP'
         }
     ];
 

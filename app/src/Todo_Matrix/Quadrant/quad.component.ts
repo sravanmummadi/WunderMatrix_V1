@@ -11,7 +11,7 @@ import {TodoItemListComponent} from '../Todo_Item_List/todo-item-list.component'
     styleUrls: ['./app/src/Todo_Matrix/Quadrant/quad.component.css']
 })
 export class TodoQuadrant {
-    @Input('quadrant1') quadrant;    
+    @Input('quadrant') quadrant;    
    
     
 }
